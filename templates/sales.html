@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>
+Record Sale
+</title>
+
+<link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+
+<body>
+
+
+<h1>
+Record Sale
+</h1>
+
+
+
+<form method="POST">
+
+
+<label>
+Select Product
+</label>
+
+<br>
+
+
+<select name="product_id">
+
+
+{% for product in products %}
+
+
+<option value="{{product.id}}">
+
+{{product.name}} 
+(Stock: {{product.stock}})
+
+</option>
+
+
+{% endfor %}
+
+
+</select>
+
+
+<br><br>
+
+
+
+<label>
+Quantity
+</label>
+
+<br>
+
+
+<input type="number" name="quantity">
+
+
+<br><br>
+
+
+<button type="submit">
+
+Sell Product
+
+</button>
+
+
+
+</form>
+
+
+
+<br>
+
+
+<a href="/">
+
+Back Home
+
+</a>
+
+
+</body>
+
+</html>
