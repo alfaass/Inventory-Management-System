@@ -1,0 +1,24 @@
+[
+    {
+        "id": "PRD0001",
+        "name": "mouse",
+        "category": "electronics",
+        "price": "800",
+        "stock": "18",
+        "reorder": "5",
+        "supplier": "alfass",
+        "phone": "12345567789",
+        "email": "abc@gmail.com"
+    },
+    {
+        "id": "PRD0002",
+        "name": "keyboard",
+        "category": "electronics",
+        "price": "900",
+        "stock": 14,
+        "reorder": "3",
+        "supplier": "anandhu",
+        "phone": "9876543211",
+        "email": "efgh@gmail.com"
+    }
+]
