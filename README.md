@@ -32,3 +32,30 @@ pip install -r requirements.txt
 Run:
 
 python app.py
+
+
+## Project Structure
+
+Inventory-Management-System/
+
+├── app.py
+
+├── products.json
+
+├── sales.json
+
+├── templates/
+
+│   ├── index.html
+
+│   ├── add_product.html
+
+│   ├── edit_product.html
+
+│   ├── sales.html
+
+│   └── report.html
+
+└── static/
+
+    └── style.css
